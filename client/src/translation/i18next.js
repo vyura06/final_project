@@ -12,7 +12,7 @@ i18n
     fallbackLng: "ru",
     whitelist: ["ru", "en"],
     detection: {
-        order:['queryString', 'cookie'],
+        order:['localStorage', 'cookie'],
         caches:['localStorage', 'cookie']
     },
     fallbackLng: 'en',
@@ -23,4 +23,4 @@ i18n
     }
   })
 
-export default i18n
+export default i18n;
