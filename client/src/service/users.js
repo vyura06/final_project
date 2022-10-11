@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { baseUsersUrl as baseUrl } from "../constants/routes";
+import { baseUsersUrl as baseUrl } from "../route/route";
 
 axios.defaults.headers.common = {
   "Content-Type": "application/json",
