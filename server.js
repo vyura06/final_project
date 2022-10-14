@@ -20,8 +20,8 @@ app.use("/api/collections", collectionsRoutes);
 app.use("/api/items", itemsRoutes);
 app.use("/api/tags", tagsRoutes);
 
-/*if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-}*/
+}
 
 app.listen(PORT, () => console.log(`App is running on ${PORT}`));
