@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 // import { ThemeProvider } from '@mui/material/styles';
-import Login from "./auth/Login";
-import Registration from "./auth/Registration";
-import MainPage from "./main-pages/MainPage";
-import Layout from "./main-pages/Layout";
-import Profile from "./main-pages/profile/Profile";
+import Login from "./pages/authentication/Login";
+import Registration from "./pages/authentication/Reg";
+import MainPage from "./pages/main/Main";
+import Layout from "./pages/layout/Layout";
+import Profile from "./pages/profile/Profile";
 // import theme from "./theme/theme";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import topicsService from "./shared/api/topics.service";
-import collectionsService from "./shared/api/collections.service";
-import Collection from "./main-pages/collection/Collection";
-import Item from "./main-pages/item/Item";
+import topicsService from "./service/topics";
+import collectionsService from "./service/collections";
+import Collection from "./pages/collection/Collection";
+import Item from "./pages/item/Item";
 import './App.css';
-import AdminPanel from "./main-pages/admin/AdminPanel";
+import AdminPanel from "./pages/admin/Admin";
 
 function App() {
   // const [currentTheme, setCurrentTheme] = useState();
