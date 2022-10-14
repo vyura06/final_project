@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { baseCollectionsUrl as baseUrl, topFiveBiggestCollectionsUrl } from "../route/route";
+import { baseCollectionsUrl as baseUrl, topFiveBiggestCollectionsUrl } from "../routes/routes";
 
 axios.defaults.headers.common = {
   "Content-Type": "application/json",
@@ -45,6 +45,7 @@ const getCollectionOptionalFields = async (collection_id) => {
   return await request;
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   getOptionalFieldTypes,
   createCollection,

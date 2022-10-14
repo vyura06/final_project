@@ -39,4 +39,5 @@ const uploadImage = async (image, image_name, image_type) => {
   return await linkPromise;
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { uploadImage };

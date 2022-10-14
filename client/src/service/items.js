@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { baseItemsUrl as baseUrl, lastAddedItemsBaseUrl } from "../route/route";
+import { baseItemsUrl as baseUrl, lastAddedItemsBaseUrl } from "../routes/routes";
 
 axios.defaults.headers.common = {
   "Content-Type": "application/json",
@@ -74,6 +74,7 @@ const removeComment = async (item_id, comment_id) => {
   return await request;
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   increaseOffset,
   getLastAddedItems,
