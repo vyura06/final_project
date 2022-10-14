@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 "use strict";
 
 const { DataTypes } = require("sequelize");
