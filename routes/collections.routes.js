@@ -2,7 +2,7 @@
 
 const Router = require("express");
 const router = new Router();
-const collectionsController = require("../controller/collections");
+const collectionsController = require("../controller/collections.conroller");
 
 router.get("/optional-field-types", collectionsController.getOptionalFieldTypes);
 router.post("/", collectionsController.createCollection);

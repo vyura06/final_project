@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import itemsService from "../../service/items";
+import itemsService from "../../service/items.service";
 import { DataGrid } from '@mui/x-data-grid';
 import { Chip, IconButton, Menu, MenuItem, ListItemIcon, ListItemText } from "@mui/material";
 import AddIcon from '@mui/icons-material/Add';

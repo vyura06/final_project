@@ -2,11 +2,11 @@
 
 const express = require("express");
 const cors = require("cors");
-const usersRoutes = require("./route/users");
-const topicsRoutes = require("./route/topics");
-const collectionsRoutes = require("./route/collections");
-const itemsRoutes = require("./route/items");
-const tagsRoutes = require("./route/tags");
+const usersRoutes = require("./routes/users.routes");
+const topicsRoutes = require("./routes/topics.routes");
+const collectionsRoutes = require("./routes/collections.routes");
+const itemsRoutes = require("./routes/items.routes");
+const tagsRoutes = require("./routes/tags.routes");
 const bodyParser = require("body-parser");
 
 const app = express();

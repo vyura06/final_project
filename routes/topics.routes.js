@@ -2,7 +2,7 @@
 
 const Router = require("express");
 const router = new Router();
-const topicController = require("../controller/topics");
+const topicController = require("../controller/topics.conroller");
 
 router.get("/", topicController.getTopics);
 

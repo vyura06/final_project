@@ -1,8 +1,8 @@
 import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import collectionsService from "../../service/collections";
-import itemsService from "../../service/items";
-import tagsService from "../../service/tags";
+import collectionsService from "../../service/collections.service";
+import itemsService from "../../service/items.service";
+import tagsService from "../../service/tags.service";
 import CollectionsTable from "../table/CollectionTable";
 import ItemsTable from "../table/ItemsTable";
 import "./main.css";

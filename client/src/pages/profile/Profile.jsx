@@ -5,8 +5,8 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import AddIcon from '@mui/icons-material/Add';
 import ProfileModal from "../profile/ProfileModal";
 import CollectionsTable from "../table/CollectionTable";
-import collectionsService from "../../service/collections";
-import usersService from "../../service/users";
+import collectionsService from "../../service/collections.service";
+import usersService from "../../service/users.service";
 import "./profile.css";
 
 function Profile({ currentUser, topics, fieldTypes }) {

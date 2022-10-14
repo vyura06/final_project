@@ -2,7 +2,7 @@
 
 const Router = require("express");
 const router = new Router();
-const usersController = require("../controller/users");
+const usersController = require("../controller/users.conroller");
 
 router.get("/", usersController.getUser.bind(usersController));
 router.get("/:id/likes", usersController.getUserLikes);

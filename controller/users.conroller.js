@@ -2,7 +2,7 @@
 "use strict";
 
 const { Users, Likes, Collections } = require("../database/database.sequelize");
-const collectionsController = require("./collections");
+const collectionsController = require("./collections.conroller");
 
 class UsersController {
   async getUser(req, res) {

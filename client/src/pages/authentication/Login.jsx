@@ -12,7 +12,7 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from 'react-router-dom';
-import usersService from "../../service/users";
+import usersService from "../../service/users.service";
 import "./auth.css";
 
 function Login({ setCurrentUser }) {

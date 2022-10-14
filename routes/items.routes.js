@@ -2,7 +2,7 @@
 
 const Router = require("express");
 const router = new Router();
-const itemsController = require("../controller/items");
+const itemsController = require("../controller/items.controller");
 
 router.get("/", itemsController.getItems.bind(itemsController));
 router.get("/:id/likes", itemsController.getItemLikes);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { DataGrid } from '@mui/x-data-grid';
-import usersService from "../../service/users";
+import usersService from "../../service/users.service";
 import SettingsIcon from '@mui/icons-material/Settings';
 import { IconButton, Menu, MenuItem, ListItemIcon, ListItemText } from "@mui/material";
 import BlockIcon from '@mui/icons-material/Block';

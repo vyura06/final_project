@@ -9,7 +9,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import { Checkbox } from "@mui/material";
 import "./collection.css";
-import tagsService from "../../service/tags";
+import tagsService from "../../service/tags.service";
 
 function CollectionModal(props) {
   const {
